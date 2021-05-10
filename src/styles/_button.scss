@@ -1,0 +1,8 @@
+.btn{
+    color: var(--color-black);
+    background-color: var(--color-slime-green);
+    padding: .9rem 2.7rem;
+    &:hover{
+        background-color: #B3FFE2;
+    }
+}
