@@ -51,7 +51,7 @@ function App() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           {...(register("email"), { required: true })}
-          value="Email Address"
+          placeholder="Email Address"
         />
         <p className="form--error">{/* {errors.email?.message} */}</p>
         <input type="submit" value="Request Access" />
