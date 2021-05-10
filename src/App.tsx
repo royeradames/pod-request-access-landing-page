@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import "./styles/main.scss";
 import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
+
 // images
 import logo from "./assets/desktop/logo.svg";
 import applePodcast from "./assets/desktop/apple-podcast.svg";
@@ -15,11 +17,16 @@ import spotify from "./assets/desktop/spotify.svg";
 
 // schema
 const schema = yup.object().shape({
-  email: yup.string().email(),
+  email: yup.string().email().required(),
 });
+
 // app
 function App() {
-  const { register, handleSubmit } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({ resolver: yupResolver(schema) });
   const onSubmit = (data: any) => console.log(data);
 
   return (
@@ -59,10 +66,10 @@ function App() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           className="form"
-          {...(register("email"), { required: true })}
+          {...register("email")}
           placeholder="Email Address"
         />
-        <p className="form--error">{/* {errors.email?.message} */}</p>
+        <p className="form--error">{errors.email?.message}</p>
         <input type="submit" value="Request Access" className="btn" />
       </form>
     </main>
