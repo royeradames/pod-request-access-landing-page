@@ -69,7 +69,9 @@ function App() {
           {...register("email")}
           placeholder="Email Address"
         />
-        <p className="form--error">{errors.email?.message}</p>
+        <p className="form--error">
+          {errors.email?.message ? "Oops! Please check your email" : ""}
+        </p>
         <input type="submit" value="Request Access" className="btn" />
       </form>
     </main>
