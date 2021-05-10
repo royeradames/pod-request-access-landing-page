@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./styles/main.scss";
+import * as yup from "yup";
 // images
 import logo from "./assets/desktop/logo.svg";
 import applePodcast from "./assets/desktop/apple-podcast.svg";
@@ -10,6 +11,13 @@ import imageHost from "./assets/desktop/image-host.jpg";
 import pocketCast from "./assets/desktop/pocket-casts.svg";
 import spotify from "./assets/desktop/spotify.svg";
 
+// input types
+
+// schema
+const schema = yup.object().shape({
+  email: yup.string().email(),
+});
+// app
 function App() {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data: any) => console.log(data);
