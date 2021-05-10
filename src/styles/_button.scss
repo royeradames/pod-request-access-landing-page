@@ -2,6 +2,8 @@
     color: var(--color-black);
     background-color: var(--color-slime-green);
     padding: .9rem 2.7rem;
+    border: none;
+    border-radius: 2.8rem;
     &:hover{
         background-color: #B3FFE2;
     }
