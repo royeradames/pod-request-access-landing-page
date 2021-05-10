@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
+import "./styles/main.scss";
 // images
 import logo from "./assets/desktop/logo.svg";
 import applePodcast from "./assets/desktop/apple-podcast.svg";
@@ -50,11 +50,12 @@ function App() {
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
+          className="form"
           {...(register("email"), { required: true })}
           placeholder="Email Address"
         />
         <p className="form--error">{/* {errors.email?.message} */}</p>
-        <input type="submit" value="Request Access" />
+        <input type="submit" value="Request Access" className="btn" />
       </form>
     </main>
   );
