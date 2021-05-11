@@ -63,9 +63,9 @@ function App() {
           className="podcast__pocket-casts"
         />
       </div>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input
-          className="form"
+          className="form__email"
           {...register("email")}
           placeholder="Email Address"
         />
