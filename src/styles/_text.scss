@@ -20,3 +20,14 @@ $table: 768px;
         color: var(--color-slime-green);
     }
 }
+
+.body{
+    color: var(--color-grey-100);
+    font-size: var(--font-body-mobile-size);
+    line-height: var(--line-height-body-mobile-size);
+
+    @media(min-width: $desktop){
+        font-size: var(--font-body-desktop-table-size);
+        line-height: var(--line-height-body-desktop-table-size);
+    }
+}
