@@ -5,7 +5,7 @@ $table: 768px;
 .title{
     font-size: var(--font-title-mobile-size);
     line-height: var(--line-height-title-mobile-sizez);
-
+    text-transform: uppercase;
     @media(min-width: $table){
         font-size: var(--font-title-table-size);
         line-height: var(--line-height-title-table-size);
