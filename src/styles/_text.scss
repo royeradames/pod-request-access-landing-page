@@ -6,6 +6,7 @@ $table: 768px;
     font-size: var(--font-title-mobile-size);
     line-height: var(--line-height-title-mobile-sizez);
     text-transform: uppercase;
+    text-align: center;
     @media(min-width: $table){
         font-size: var(--font-title-table-size);
         line-height: var(--line-height-title-table-size);
@@ -22,6 +23,7 @@ $table: 768px;
 }
 
 .body{
+    text-align: center;
     color: var(--color-grey-100);
     font-size: var(--font-body-mobile-size);
     line-height: var(--line-height-body-mobile-size);
