@@ -3,6 +3,7 @@ $table: 768px;
 
 
 .title{
+    color: var(--color-white);
     font-size: var(--font-title-mobile-size);
     line-height: var(--line-height-title-mobile-sizez);
     text-transform: uppercase;
@@ -19,6 +20,7 @@ $table: 768px;
 
     &--lime-green{
         color: var(--color-slime-green);
+        display: block;
     }
 }
 
@@ -27,6 +29,7 @@ $table: 768px;
     color: var(--color-grey-100);
     font-size: var(--font-body-mobile-size);
     line-height: var(--line-height-body-mobile-size);
+    margin: 1.6rem 0 3.3rem;
 
     @media(min-width: $desktop){
         font-size: var(--font-body-desktop-table-size);
