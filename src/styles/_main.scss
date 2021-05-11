@@ -1,9 +1,19 @@
 .main{
-    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 6.2rem 2.4rem 9.4rem 2.4rem;
+    background-image: url("../assets/mobile/image-host.jpg");
+    background-color: var(--color-black);
+    background-blend-mode: multiply;
 }
-
+.logo{
+    margin-bottom: 5.7rem;
+}
 .podcast{
-    display: flex;
+    display: grid;
+    grid-template: 1.7rem / 1fr 1fr 1fr 1fr;
+    column-gap: 2.5rem;
     justify-content: space-between;
     align-items: center;
 }
