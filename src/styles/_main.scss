@@ -33,9 +33,13 @@ $table: 768px;
     }
 }
 .main{
-    background-color: var(--color-black);
+    
     padding-top: 9.3rem;
     display: grid;
+
+    @media(min-width: $table){
+        background-color: var(--color-black);
+    }
 }
 
 .podcast{
