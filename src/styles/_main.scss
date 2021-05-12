@@ -25,6 +25,11 @@ $table: 768px;
         // add space for 2 background image
         padding: 5rem 2.4rem 25.7rem 2.4rem;
     }
+
+    @media(min-width: $desktop){
+        // update container spacing
+        padding: 10.2rem 0 13rem 16.5rem;
+    }
 }
 .logo{
     margin-bottom: 5.7rem;
@@ -40,6 +45,8 @@ $table: 768px;
     @media(min-width: $table){
         background-color: var(--color-black);
     }
+
+    
 }
 
 .podcast{
