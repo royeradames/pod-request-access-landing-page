@@ -13,7 +13,8 @@
         border: none;
 
         &:focus-visible {
-            outline: .1rem solid #FC0000;
+            border: .1rem solid #FC0000;
+            outline: none;
         }
     }
     &--error{

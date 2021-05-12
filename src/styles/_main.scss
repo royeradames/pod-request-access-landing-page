@@ -4,6 +4,8 @@
     justify-items: center;
     padding: 6.2rem 2.4rem 9.4rem 2.4rem;
     background-image: url("../assets/mobile/image-host.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--color-black);
     background-blend-mode: multiply;
 }
