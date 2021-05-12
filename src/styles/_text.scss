@@ -35,6 +35,7 @@ $table: 768px;
     @media(min-width: $table){
         text-align: start;
         max-width: 44.5rem;
+        margin: 3.1rem 0 4rem 0;
     }
 
     @media(min-width: $desktop){
