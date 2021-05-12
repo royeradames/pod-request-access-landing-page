@@ -1,7 +1,7 @@
 $desktop: 1440px;
 $table: 768px;
 
-.main{
+.container{
     display: grid;
     align-items: center;
     justify-items: center;
@@ -16,8 +16,15 @@ $table: 768px;
         justify-items: start;
     }
 }
+
+.main{
+    
+}
 .logo{
     margin-bottom: 5.7rem;
+    @media(min-width: $table){
+        margin-bottom: 15.2rem;
+    }
 }
 .podcast{
     display: grid;
