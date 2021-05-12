@@ -1,3 +1,5 @@
+$desktop: 1440px;
+$table: 768px;
 .btn{
     color: var(--color-black);
     background-color: var(--color-slime-green);
@@ -6,6 +8,11 @@
     border-radius: 2.8rem;
     font-weight: bold;
     font-size: 1.4rem;
+
+    @media(min-width: $table){
+            grid-column: 2/-1;
+            grid-row: 1;
+        }
     &:hover{
         background-color: #B3FFE2;
     }

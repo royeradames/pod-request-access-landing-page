@@ -1,8 +1,17 @@
+$desktop: 1440px;
+$table: 768px;
+
 .form{
     margin-top: 4.8rem;
     display: grid;
     width: 100%;
     row-gap: 1.6rem;
+    @media(min-width: $table){
+        grid-template:
+            5.6rem
+            / 26.5rem 16.2rem
+        ;
+    }
     &__email{
         font-size: 1.4rem;
         font-weight: bold;
@@ -12,6 +21,10 @@
         border-radius: 2.8rem;
         border: none;
 
+        @media(min-width: $table){
+            grid-column: 1 / -1;
+            grid-row: 1;
+        }
         &:focus-visible {
             border: .1rem solid #FC0000;
             outline: none;
