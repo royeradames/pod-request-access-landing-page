@@ -16,20 +16,30 @@ $table: 768px;
         justify-items: start;
     }
 }
-
-.main{
-    
-}
 .logo{
     margin-bottom: 5.7rem;
     @media(min-width: $table){
         margin-bottom: 15.2rem;
     }
 }
+.main{
+    background-color: var(--color-black);
+    padding-top: 9.3rem;
+
+    display: grid;
+
+    
+}
+
 .podcast{
     display: grid;
     grid-template: 1.7rem / 1fr 1fr 1fr 1fr;
     column-gap: 2.5rem;
     justify-content: space-between;
     align-items: center;
+
+    @media(min-width: $table){
+        // move podcasts logos after the button
+        order: 1;   
+    }
 }
