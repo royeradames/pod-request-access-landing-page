@@ -16,13 +16,14 @@ $table: 768px;
         justify-items: start;
 
         // update backcground image
-        background-image: url("../assets/tablet/image-host.jpg");
+        background-image: url("../assets/tablet/image-host.jpg"), url("../assets/desktop/bg-pattern-dots.svg");
         background-repeat: no-repeat;
         background-size: initial;
         background-blend-mode: initial;
-        background-position: top right;
+        background-position: top right, bottom left 3rem;
 
-        
+        // add space for 2 background image
+        padding: 6.2rem 2.4rem 25.7rem 2.4rem;
     }
 }
 .logo{
