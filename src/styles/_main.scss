@@ -29,12 +29,17 @@ $table: 768px;
     @media(min-width: $desktop){
         // update container spacing
         padding: 10.2rem 0 13rem 16.5rem;
+        row-gap: 10.3rem;
     }
 }
 .logo{
     margin-bottom: 5.7rem;
     @media(min-width: $table){
         margin-bottom: 15.2rem;
+    }
+    @media(min-width: $desktop){
+        margin-bottom: 0;
+
     }
 }
 .main{
