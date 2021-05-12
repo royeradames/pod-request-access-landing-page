@@ -43,7 +43,9 @@ $table: 768px;
     @media(min-width: $table){
         background-color: var(--color-black);
     }
-
+    @media(min-width: $desktop){
+        padding: 8.8rem 5.8rem 0 0;
+    }
     
 }
 

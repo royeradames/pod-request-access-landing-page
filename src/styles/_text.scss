@@ -41,5 +41,6 @@ $table: 768px;
     @media(min-width: $desktop){
         font-size: var(--font-body-desktop-table-size);
         line-height: var(--line-height-body-desktop-table-size);
+        margin: 2.4rem 0 4rem 0;
     }
 }

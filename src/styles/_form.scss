@@ -11,9 +11,12 @@ $table: 768px;
             5.6rem
             / 26.5rem 16.2rem
         ;
-        margin: 0 0 6.4rem 0;
         row-gap: initial;
+
+        // spacing for table and desktop
+        margin: 0 0 6.4rem 0;
     }
+    
     &__email{
         font-size: 1.4rem;
         font-weight: bold;
