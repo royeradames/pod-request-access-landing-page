@@ -11,6 +11,7 @@ $table: 768px;
     @media(min-width: $table){
         font-size: var(--font-title-table-size);
         line-height: var(--line-height-title-table-size);
+        text-align: start;
     }
 
     @media(min-width: $desktop){
@@ -30,6 +31,10 @@ $table: 768px;
     font-size: var(--font-body-mobile-size);
     line-height: var(--line-height-body-mobile-size);
     margin: 1.6rem 0 3.3rem;
+
+    @media(min-width: $table){
+        text-align: start;
+    }
 
     @media(min-width: $desktop){
         font-size: var(--font-body-desktop-table-size);

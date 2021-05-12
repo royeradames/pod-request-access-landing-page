@@ -1,3 +1,6 @@
+$desktop: 1440px;
+$table: 768px;
+
 .main{
     display: grid;
     align-items: center;
@@ -8,6 +11,10 @@
     background-size: cover;
     background-color: var(--color-black);
     background-blend-mode: multiply;
+
+    @media(min-width: $table){
+        justify-items: start;
+    }
 }
 .logo{
     margin-bottom: 5.7rem;
