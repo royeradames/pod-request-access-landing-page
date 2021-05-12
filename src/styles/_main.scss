@@ -33,6 +33,10 @@ $table: 768px;
         // update container spacing
         padding: 10.2rem 0 13rem 16.5rem;
         row-gap: 10.3rem;
+
+        // update background
+        background-image: url("../assets/desktop/bg-pattern-dots.svg"), url("../assets/desktop/image-host.jpg");
+        background-position:  bottom 7.8rem right, top 13rem right;
     }
 }
 .main{
