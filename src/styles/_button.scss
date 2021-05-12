@@ -10,8 +10,12 @@ $table: 768px;
     font-size: 1.4rem;
 
     @media(min-width: $table){
+            // overlay the button on top of the email input
             grid-column: 2/-1;
             grid-row: 1;
+            align-self: center;
+            width: 15.8rem;
+            height: 4.6rem;
         }
     &:hover{
         background-color: #B3FFE2;
