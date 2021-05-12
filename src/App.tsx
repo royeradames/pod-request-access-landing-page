@@ -75,7 +75,11 @@ function App() {
           <p className="form--error">
             {errors.email?.message ? "Oops! Please check your email" : ""}
           </p>
-          <input type="submit" value="Request Access" className="btn" />
+          <input
+            type="submit"
+            value="Request Access"
+            className="form__request"
+          />
         </form>
       </main>
     </div>
