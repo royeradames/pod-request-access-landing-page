@@ -41,5 +41,7 @@ $table: 768px;
     @media(min-width: $table){
         // move podcasts logos after the button
         order: 1;   
+
+        max-width: 53.6rem;
     }
 }
