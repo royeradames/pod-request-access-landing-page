@@ -66,6 +66,7 @@ function App() {
         </div>
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
           <input
+            aria-label="Enter your email address for podcast access"
             className="form__email"
             {...register("email")}
             placeholder="Email Address"
