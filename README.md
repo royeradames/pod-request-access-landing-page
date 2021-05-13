@@ -89,15 +89,14 @@ A class on aria-label. Aria-label feels foreing to me even do I can get the job 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) - Helped me reference which semantic HTML tag I can use and why.
 - [Inputs should always have a label](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Helped me understand that I need a label for every input even when I don't want to show a input.
 - [Using the aria-label attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute) - Use it in cases where a text label is not visible on the screen.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [royer adames](https://www.linkedin.com/in/royer-adames/)
+- Frontend Mentor - [@royeradames](https://www.frontendmentor.io/profile/royeradames)
 
 ## Acknowledgments
 
