@@ -39,11 +39,11 @@ Users should be able to:
 
 ### Screenshot
 #### Mobile
-![](./readme_assets/mobile-view.png)
+![Mobile view](./readme_assets/mobile-view.png)
 #### Tablet
-![](./readme_assets/tablet-view.png)
+![Table view](./readme_assets/tablet-view.png)
 #### Desktop
-![](./readme-assets/../readme_assets/desktop-view.png)
+![Desktop view](./readme-assets/../readme_assets/desktop-view.png)
 ### Links
 
 - Solution URL: [Front End Mentor solution post](https://www.frontendmentor.io/solutions/pod-request-access-landing-page-react-sass-css-grid-app-SHAnNHC6z)
