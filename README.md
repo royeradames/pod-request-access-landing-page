@@ -18,6 +18,7 @@ This is a solution to the [Pod request access landing page challenge on Frontend
     - [What I learned](#what-i-learned)
       - [Use button tag instead of input type submit](#use-button-tag-instead-of-input-type-submit)
       - [Inputs always need a label even if there are not visable, and invisiable labels cand be added with area label](#inputs-always-need-a-label-even-if-there-are-not-visable-and-invisiable-labels-cand-be-added-with-area-label)
+      - [There are multiple modules with names that only differ in casing can lead to unexpected behavior when compiling](#there-are-multiple-modules-with-names-that-only-differ-in-casing-can-lead-to-unexpected-behavior-when-compiling)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -83,6 +84,17 @@ More Semantic
 aria-label="Enter your email address for podcast access"
 ```
 
+#### There are multiple modules with names that only differ in casing can lead to unexpected behavior when compiling
+Before
+```html
+_main.scss
+main.scss_
+```
+After
+```html
+_main-content.scss
+main.scss_
+```
 ### Continued development
 
 A class on aria-label. Aria-label feels foreing to me even do I can get the job done with them. 
