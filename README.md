@@ -16,6 +16,8 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+      - [Use button tag instead of input type submit](#use-button-tag-instead-of-input-type-submit)
+      - [Inputs always need a label even if there are not visable, and invisiable labels cand be added with area label](#inputs-always-need-a-label-even-if-there-are-not-visable-and-invisiable-labels-cand-be-added-with-area-label)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -63,37 +65,33 @@ Users should be able to:
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
-
+#### Use button tag instead of input type submit
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <input
+    type="submit"
+    value="Request Access"
+    className="form__request"
+  />
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+More Semantic
+```html
+<button className="form__request">Request Access</button>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+#### Inputs always need a label even if there are not visable, and invisiable labels cand be added with area label
+```html
+aria-label="Enter your email address for podcast access"
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+A class on aria-label. Aria-label feels foreing to me even do I can get the job done with them. 
 
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Inputs should always have a label](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Helped me understand that I need a label for every input even when I don't want to show a input.
+- [Using the aria-label attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute) - Use it in cases where a text label is not visible on the screen.
 
 ## Author
 
@@ -101,10 +99,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you Austin Kelsay for looking into my project, and for your great feedback.
