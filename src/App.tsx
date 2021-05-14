@@ -12,7 +12,9 @@ import pocketCast from "./assets/desktop/pocket-casts.svg";
 import spotify from "./assets/desktop/spotify.svg";
 
 // input types
-
+interface IFormInputs {
+  email: string;
+}
 // schema
 const schema = yup.object().shape({
   email: yup.string().email().required(),
@@ -25,7 +27,7 @@ function App() {
     handleSubmit,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
-  const onSubmit = (data: any) => console.log(data);
+  const onSubmit = (data: IFormInputs) => console.log(data);
 
   return (
     <div className="container">
