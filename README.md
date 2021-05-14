@@ -8,7 +8,8 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
+    - [Screenshots of design file and production website](#screenshots-of-design-file-and-production-website)
+      - [Given design file](#given-design-file)
       - [Mobile](#mobile)
       - [Tablet](#tablet)
       - [Desktop](#desktop)
@@ -38,7 +39,9 @@ Users should be able to:
   - The `Email address` field is empty should show "Oops! Please add your email"
   - The email is not formatted correctly should show "Oops! Please check your email"
 
-### Screenshot
+### Screenshots of design file and production website
+#### Given design file
+![Design file](./readme_assets/design-file.png)
 #### Mobile
 ![Mobile view](./readme_assets/mobile-view.png)
 #### Tablet
